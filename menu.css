@@ -1,0 +1,176 @@
+.main {
+    justify-content: center;
+}
+
+.form {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    height: 500px;
+    background-color: #CDF0EA;
+    box-shadow: 0px 4px 10px 4px #00000040;
+    margin: auto;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.box {
+    margin: auto;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 10px 4px #00000040;
+    width: 40rem;
+    height: 25rem;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 5%;
+}
+
+.column-left {
+    float: left;
+    width: 30%;
+    margin-left: 1rem;
+}
+
+.column-right {
+    float: left;
+    text-align: right;
+    width: 50%;
+}
+
+.button {
+    background-color: #4d54b8;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.formcontent {
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 10%;
+    border-radius: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.pin {
+    height: 20px;
+    width: 120px;
+    border-radius: 5px;
+    margin: 15px 21px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 10px;
+    font-style: italic;
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.input-text {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+
+/* Style the label to display next to the inputs */
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+
+/* Style the submit button */
+
+
+/* Style the container */
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/* Floating column for labels: 25% width */
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+
+/* Floating column for inputs: 75% width */
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.input {
+    width: 30px;
+}
+
+.col-30 {
+    width: 30%;
+    margin-top: 6px;
+    margin: auto;
+}
+
+.left-col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    text-align: left;
+}
+
+.right-col-50 {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    text-align: right;
+}
