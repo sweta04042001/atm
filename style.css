@@ -8,14 +8,14 @@
     background-image: url("download.jpeg");
     background-size: cover;
     opacity: 0.;
-    border-radius: 0.8rem;
+    border-radius: 0.9rem;
     width: 20rem;
     height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 4px 20px 4px #00000040;
+    box-shadow: 0px 4px 15px 3px #00000040;
 }
 .input
 {
